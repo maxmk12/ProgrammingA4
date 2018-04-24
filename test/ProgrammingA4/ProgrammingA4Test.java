@@ -39,10 +39,4 @@ public class ProgrammingA4Test {
         int total = 13;
         Assert.assertEquals(2, ProgrammingA4.p(array, total));
     }
-    @Test
-    public void test5(){
-        int array[] = {8,6,5,1};
-        int total = 11;
-        Assert.assertEquals(2, ProgrammingA4.p(array, total));
-    }
 }
